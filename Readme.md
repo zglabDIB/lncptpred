@@ -1,6 +1,6 @@
 <h1>LncPTPred</h1>
 LncPTPred is a target prediction tool to predict the interaction between lncRNA and Protein. Given the lncRNA sequence and the Protein name, this tool will extract the position specific binding probabilities across 
-the given lncRNA loci using a shifting window of specific size. Web-server version corresponding to the LncPTPred tool can be accessed from  <a href='http://bicresources.jcbose.ac.in/zhumur/lncptpred/'>Here</a> or <a href='http://dibresources.jcbose.ac.in/zhumur/lncptpred/'>Here</a>. <br/>
+the given lncRNA loci using a shifting window of specific size. Web-server version corresponding to the LncPTPred tool can be accessed from  <a href='http://bicresources.jcbose.ac.in/zhumur/lncptpred/'>Here</a>. <br/>
 
 <h2>Pre-requisite:</h2>
 <ul>
