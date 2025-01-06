@@ -13,7 +13,10 @@ the given lncRNA loci using a shifting window of specific size. Web-server versi
 <h4>Python programming Environment setup:</h4>
 <ul>
 <li>Download anaconda distribution from their official website (<a href='https://www.anaconda.com/download'>Here</a>)</li>
+<li>Install the <b>git</b> application in order to clone the tool from github(<a href='https://git-scm.com/downloads'>git</a>)</li>
 <li>Install the <b>git-lfs</b> in order to download the pre-trained models(<a href='https://git-lfs.com/'>git-lfs</a>)</li>
+<li>Clone the whole application using following command
+<ul><li><b><i>git clone https://github.com/zglabDIB/lncptpred.git</b></i></li></ul>
 <li>Create a conda environment named viz. lncptpred using the following command:</li>
 <ul><li><b><i>conda create -n lncptpred python==3.8.5</b></i></li></ul>
 <li>Activate the conda environment using</li>
@@ -22,8 +25,13 @@ the given lncRNA loci using a shifting window of specific size. Web-server versi
 <ul><li><b><i>cd "downloaded_path"/lncptpred/</b></i></li></ul>
 <li>Download the necessary python packages from the requirement.txt file provided here using</li>
 <ul><li><b><i>pip  install -r requirement.txt</b></i></li></ul>
-<li>Upon the failing in the installation of <b>git-lfs</b> user can download the pre-taring models using following command (linux):</li>
-<ul><li><b><i>wget</b></i></li></ul>
+<li>Upon failing the installation of <b>git-lfs</b> user can download the pre-taring models using following command (linux):</li>
+<ul><li><b><i>wget https://github.com/zglabDIB/lncptpred/blob/master/models/LR_Meta_lncRNA_Prot_Balanced.sav</b></i></li></ul>
+<ul><li><b><i>wget https://github.com/zglabDIB/lncptpred/blob/master/models/LR_Meta_lncRNA_Prot_GLOBAL.sav</b></i></li></ul>
+<ul><li><b><i>wget https://github.com/zglabDIB/lncptpred/blob/master/models/LR_Meta_lncRNA_Prot_Pos_Bias.sav</b></i></li></ul>
+<ul><li><b><i>wget https://github.com/zglabDIB/lncptpred/blob/master/models/StandardScaler_lncRNA_Protein.sav</b></i></li></ul>
+<li>In Windows go to the models folder and download individual pre-trained models directly and finally save them into the <b>models</b> folder</li>
+
 </ul>
 <h2>Code Execution Procedure:</h2>
 <ul>
