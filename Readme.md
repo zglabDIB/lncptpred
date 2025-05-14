@@ -29,7 +29,7 @@ the given lncRNA loci using a shifting window of specific size. Web-server versi
 </ul>
 <h2>Code Execution Procedure:</h2>
 <ul>
-<li>Copy-Paste the lncRNA Sequence in <b>lncrna_seq.txt</b> file, place it in <b>input</b> folder and execute it by the following code:</li>
+<li>Copy-Paste the lncRNA Sequence in <b>lncrna_seq.txt</b> file (an instance has been given in example folder), place it in <b>input</b> folder and execute it by the following code:</li>
 <ul>
 <pre>python init.py</pre>
 <li>Select Window length of lncRNA Sequences with <b>Minimum Length=10, Maximum Length=40</b> and <b>Default Length=20</b>. Given <b>Length<10</b> and <b>>40</b> will be considered as 10 and 40 respectively.</li>
