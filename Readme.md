@@ -31,7 +31,7 @@ the given lncRNA loci using a shifting window of specific size. Web-server versi
 <ul>
 <li>Copy-Paste the lncRNA Sequence in <b>lncrna_seq.txt</b> file, place it in <b>input</b> folder and execute it by the following code:</li>
 <ul>
-<li><b><i>python init.py</b></i></li>
+<pre>python init.py</pre>
 <li>Select Window length of lncRNA Sequences with <b>Minimum Length=10, Maximum Length=40</b> and <b>Default Length=20</b>. Given <b>Length<10</b> and <b>>40</b> will be considered as 10 and 40 respectively.</li>
 <li>Select Shifting size of moving window corresponding to lncRNA Sequence with <b>Minimum Size=1, Maximum Size=5</b> and <b>Default Size=1</b>. Given <b>Size<1</b> and <b>>5</b> will be considered as 1 and 5 respectively.</li>
 <li>Select Strands either <b>'+'</b> or <b>'-'</b>(Provide exact strand information corresponding to the input lncRNA sequence)</li>
