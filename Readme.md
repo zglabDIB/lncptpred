@@ -25,7 +25,7 @@ the given lncRNA loci using a shifting window of specific size. Web-server versi
 <li>Download the necessary python packages from the requirement.txt file provided here using</li>
 <pre>pip  install -r requirement.txt</pre>
 <li>Unzip the model cloned in the <b>models</b> folder using following command:</li>
-<pre>unzip models.zip</pre>
+<pre>unzip models/models.zip -d models/</pre>
 </ul>
 <h2>Code Execution Procedure:</h2>
 <ul>
